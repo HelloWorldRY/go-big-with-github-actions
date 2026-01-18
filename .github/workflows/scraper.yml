@@ -2,11 +2,11 @@ name: First Scraper
 
 on:
   workflow_dispatch:
-  inputs:
-    state:
-      description: 'U.S. state to scrape'
-      required: true
-      default: 'ia'
+    inputs:
+      state:
+        description: 'U.S. state to scrape'
+        required: true
+        default: 'ia'
       
   schedule:
   - cron: "0 0 * * *"
